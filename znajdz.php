@@ -31,7 +31,7 @@
             <form action="znajdz.php" method="post">
                 Podaj nazwę miasta:
                 <input type="text" name="nazwa">
-                <input type="submit" value="SPRAWDŹ">(个_个)
+                <input type="submit" value="SPRAWDŹ">
             </form>
             <?php
             $conn = mysqli_connect('localhost', 'root', '', 'kwiaciarnia');
