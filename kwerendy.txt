@@ -1,0 +1,5 @@
+Kwerenda 1: SELECT nazwa, ulica FROM kwiaciarnie WHERE miasto='Malbork';
+Kwerenda 2: SELECT id_kwiaciarni,COUNT(*) FROM zamowienia GROUP BY id_kwiaciarni;
+Kwerenda 3: SELECT nazwa,miasto,kwiaty FROM kwiaciarnie INNER JOIN zamowienia ON kwiaciarnie.id_kwiaciarni=zamowienia.id_kwiaciarni WHERE zamowienia.data='2017-01-07';
+Kwerenda 4: CREATE TABLE `kwiaciarnia`.`klienci` (`id` INT NOT NULL AUTO_INCREMENT , `imie` TEXT NOT NULL , `nazwisko` TEXT NOT NULL , `rabat` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ヾ(*´ー`)ノ
